@@ -172,7 +172,7 @@ class Services:
                 mailfrom = f.split('_')[1]
                 subject = f.split('_')[2][:-4]
                 courriel = '{:7} {:30} {:1}'.format(numero, mailfrom, subject)
-                courriels = courriel + '\n' + courriels
+                courriels = courriels + '\n' + courriel
         return courriels
 
     """
